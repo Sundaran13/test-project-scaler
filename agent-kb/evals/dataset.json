@@ -1,0 +1,98 @@
+[
+    {
+      "id": "q1",
+      "question": "Where is the Scaler Software Engineer role based?",
+      "expected": "Bengaluru",
+      "must_contain": ["Bengaluru"],
+      "answerable": true,
+      "category": "factual"
+    },
+    {
+      "id": "q2",
+      "question": "What is the primary focus area of this role?",
+      "expected": "AI problem solving across key skills with IP-driven judges - building the evaluation engine and proprietary judges that assess learner work",
+      "must_contain": ["judge"],
+      "answerable": true,
+      "category": "factual"
+    },
+    {
+      "id": "q3",
+      "question": "What tech stack exposure is mentioned in the must-haves?",
+      "expected": "FastAPI, MySQL/Postgres, AWS, Redis, Celery or similar",
+      "must_contain": ["FastAPI"],
+      "answerable": true,
+      "category": "factual"
+    },
+    {
+      "id": "q4",
+      "question": "What is OpenMAIC and which university is it from?",
+      "expected": "Open Multi-Agent Interactive Classroom, from Tsinghua University",
+      "must_contain": ["Tsinghua"],
+      "answerable": true,
+      "category": "factual"
+    },
+    {
+      "id": "q5",
+      "question": "What is Scaler 3.0?",
+      "expected": "A ground-up rebuild of the learning platform with AI woven through every step - the company's biggest bet",
+      "must_contain": ["AI"],
+      "answerable": true,
+      "category": "factual"
+    },
+    {
+      "id": "q6",
+      "question": "What are the nice-to-have skills for this role?",
+      "expected": "Agentic or multi-agent systems, evaluation/scoring/judge systems, observability and guardrails, startup or 0-to-1 experience",
+      "must_contain": ["multi-agent"],
+      "answerable": true,
+      "category": "multi_fact"
+    },
+    {
+      "id": "q7",
+      "question": "What does the AI career journey involve?",
+      "expected": "An intelligent path from skill to job: profile building, readiness, matching, prep, and placement",
+      "must_contain": ["placement"],
+      "answerable": true,
+      "category": "factual"
+    },
+    {
+      "id": "q8",
+      "question": "How many roadmap items are listed in the job description?",
+      "expected": "Nine",
+      "must_contain": ["9", "nine"],
+      "answerable": true,
+      "category": "counting"
+    },
+    {
+      "id": "q9",
+      "question": "What is the salary range for this position?",
+      "expected": "Not specified in the knowledge base",
+      "must_contain": [],
+      "answerable": false,
+      "category": "unanswerable"
+    },
+    {
+      "id": "q10",
+      "question": "Who is the hiring manager for this role?",
+      "expected": "Not specified in the knowledge base",
+      "must_contain": [],
+      "answerable": false,
+      "category": "unanswerable"
+    },
+    {
+      "id": "q11",
+      "question": "What is the capital of France?",
+      "expected": "Not in the knowledge base - the agent should say it cannot find this information",
+      "must_contain": [],
+      "answerable": false,
+      "category": "out_of_scope"
+    },
+    {
+      "id": "q12",
+      "question": "How many employees does Scaler have?",
+      "expected": "Not specified in the knowledge base",
+      "must_contain": [],
+      "answerable": false,
+      "category": "unanswerable"
+    }
+  ]

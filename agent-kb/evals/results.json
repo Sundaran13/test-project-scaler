@@ -1,0 +1,122 @@
+[
+  {
+    "id": "q1",
+    "category": "factual",
+    "answerable": true,
+    "question": "Where is the Scaler Software Engineer role based?",
+    "answer": "The Scaler Software Engineer (AI\u2011Native Learning Platform) role is based in **Bengaluru**, with a hybrid work arrangement\u202f\u30103\u2020source\u3011.",
+    "passed": true,
+    "reason": "ok",
+    "latency": 16.91
+  },
+  {
+    "id": "q2",
+    "category": "factual",
+    "answerable": true,
+    "question": "What is the primary focus area of this role?",
+    "answer": "The core of the role is to **build the evaluation engine and the proprietary \u201cjudges\u201d that assess learner work across every core skill the program teaches** \u2013 such as code, design, reasoning, system\u2011thinking, and related abilities\u30101\u2020L1-L7\u3011. This focus on creating the IP\u2011driven assessment system is described as the \u201cheart of the role.\u201d",
+    "passed": true,
+    "reason": "ok",
+    "latency": 1.49
+  },
+  {
+    "id": "q3",
+    "category": "factual",
+    "answerable": true,
+    "question": "What tech stack exposure is mentioned in the must-haves?",
+    "answer": "The must\u2011haves list includes a requirement for **exposure to a modern web\u2011back\u2011end stack**, specifically:\n\n- **FastAPI**\n- **MySQL or PostgreSQL**\n- **AWS**\n- **Redis**\n- **Celery** (or a comparable stack)\n\nThis set of technologies is called out as the \u201cExposure to FastAPI\u202f+\u202fMysql/Postgres\u202f+\u202fAWS\u202f+\u202fRedis\u202f+\u202fCelery or a similar tech stack\u201d\u30102\u3011.",
+    "passed": true,
+    "reason": "ok",
+    "latency": 1.69
+  },
+  {
+    "id": "q4",
+    "category": "factual",
+    "answerable": true,
+    "question": "What is OpenMAIC and which university is it from?",
+    "answer": "OpenMAIC stands for **Open Multi\u2011Agent Interactive Classroom**. It is a platform that turns any topic or document into an interactive, multi\u2011agent lesson, moving learning from passive video lectures to active, personalized, socially\u2011rich AI\u2011driven classrooms. The project originates from **Tsinghua University**\u30101\u2020source\u3011\u30102\u2020source\u3011.",
+    "passed": true,
+    "reason": "ok",
+    "latency": 1.86
+  },
+  {
+    "id": "q5",
+    "category": "factual",
+    "answerable": true,
+    "question": "What is Scaler 3.0?",
+    "answer": "Scaler\u202f3.0 is the next\u2011generation, AI\u2011native learning platform that Scaler is building.\u202fIt is designed to leverage modern generative\u2011AI models and large\u2011scale compute resources, giving learners generous token budgets and the freedom to experiment with frontier models.\u202fThe platform emphasizes rapid product cycles\u2014short feedback loops, fast decision\u2011making, and a direct line to Scaler\u2019s leadership\u2014so that new features can be shipped quickly to a live user base and have measurable impact\u30101\u2020source\u3011.",
+    "passed": true,
+    "reason": "ok",
+    "latency": 2.15
+  },
+  {
+    "id": "q6",
+    "category": "multi_fact",
+    "answerable": true,
+    "question": "What are the nice-to-have skills for this role?",
+    "answer": "**Nice\u2011to\u2011have skills for the role**\n\n| Area | What the job posting lists as \u201cnice\u2011to\u2011have\u201d |\n|------|----------------------------------------------|\n| **AI system design** | \u2022 Experience building **agentic or multi\u2011agent systems** and **multi\u2011step AI workflows**\u30106\u2020L1-L4\u3011 |\n| **Evaluation & scoring** | \u2022 Experience designing **evaluation, scoring, or \u201cjudge\u201d systems** for open\u2011ended work\u30107\u2020L1-L3\u3011 |\n| **Production\u2011grade AI** | \u2022 Familiarity with **observability and guardrails** for AI products in production\u30107\u2020L4-L5\u3011 |\n| **Startup experience** | \u2022 Prior work in a **fast\u2011moving startup or 0\u2011to\u20111 environment**\u30107\u2020L6-L7\u3011 |\n\nThese additional capabilities complement the core (must\u2011have) requirements and would make a candidate especially strong for the position.",
+    "passed": false,
+    "reason": "retrieval miss - expected content not in top-k",
+    "latency": 149.56
+  },
+  {
+    "id": "q7",
+    "category": "factual",
+    "answerable": true,
+    "question": "What does the AI career journey involve?",
+    "answer": "The AI\u202fcareer\u202fjourney is described as an **intelligent, end\u2011to\u2011end pathway that takes a learner from acquiring skills all the way to landing a job**. It includes several coordinated steps:\n\n1. **Profile building** \u2013 creating a detailed view of the learner\u2019s abilities and interests.  \n2. **Readiness** \u2013 ensuring the learner has the knowledge and experience needed for AI roles.  \n3. **Matching** \u2013 connecting the learner\u2019s profile with appropriate job opportunities.  \n4. **Preparation** \u2013 providing targeted training, interview practice, and other prep work.  \n5. **Placement** \u2013 facilitating the actual hiring process and onboarding.\n\nThe whole process is automated, replacing what previously required entire teams of recruiters, coaches, and mentors\u202f[1].",
+    "passed": true,
+    "reason": "ok",
+    "latency": 13.34
+  },
+  {
+    "id": "q8",
+    "category": "counting",
+    "answerable": true,
+    "question": "How many roadmap items are listed in the job description?",
+    "answer": "The job description\u2019s \u201cWhat you will build (the roadmap)\u201d section lists **three** roadmap items:\n\n1. AI onboarding journey  \n2. AI live\u2011class platform with realtime support  \n3. AI\u202f24\u00d77 companion, TA, and mentor  \n\nThese three items are enumerated in the roadmap section of the description\u30101\u2020source: ./uploads/5127db91-250f-440c-aed4-ec1083cb00e6.pdf\u3011.",
+    "passed": true,
+    "reason": "retrieval miss - expected content not in top-k",
+    "latency": 66.86
+  },
+  {
+    "id": "q9",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What is the salary range for this position?",
+    "answer": "I\u2019m happy to help, but I need a bit more information. Could you let me know which specific position you\u2019re referring to? Once I know the job title or description, I can look up the salary range for you.",
+    "passed": false,
+    "reason": "HALLUCINATION - answered an unanswerable question",
+    "latency": 3.99
+  },
+  {
+    "id": "q10",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Who is the hiring manager for this role?",
+    "answer": "",
+    "passed": false,
+    "reason": "error: Error code: 413 - {'error': {'message': 'Request too large for model `openai/gpt-oss-120b` in organization `org_01m1kwzrgne65sjqc2hv6ys5pq` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8176, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "latency": 324.43
+  },
+  {
+    "id": "q11",
+    "category": "out_of_scope",
+    "answerable": false,
+    "question": "What is the capital of France?",
+    "answer": "I\u2019m sorry, but the knowledge base does not contain information about the capital of France.",
+    "passed": true,
+    "reason": "ok - correctly declined",
+    "latency": 8.96
+  },
+  {
+    "id": "q12",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "How many employees does Scaler have?",
+    "answer": "I\u2019m sorry, but the knowledge base does not contain any information about how many employees work at Scaler.",
+    "passed": true,
+    "reason": "ok - correctly declined",
+    "latency": 55.12
+  }
+]
